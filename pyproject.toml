@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hardenx"
+version = "0.2.0"
+description = "Interactive system hardening audit, remediation, and rollback CLI"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Piyush Kulkarni", email = "kulkarnipiyush462@gmail.com"}
+]
+maintainers = [
+    {name = "Piyush Kulkarni", email = "kulkarnipiyush462@gmail.com"}
+]
+keywords = ["security", "hardening", "audit", "remediation", "rollback", "linux", "windows", "cli"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Developers",
+    "Topic :: Security",
+    "Topic :: System :: Systems Administration",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+]
+
+dependencies = [
+    "rich>=13.7.0",
+    "reportlab>=4.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build>=1.2.2",
+    "twine>=5.1.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/piyushk6626/HardenX"
+Repository = "https://github.com/piyushk6626/HardenX.git"
+"Bug Tracker" = "https://github.com/piyushk6626/HardenX/issues"
+
+[project.scripts]
+hardenx = "hardenx.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["hardenx*"]
+
+[tool.setuptools.package-data]
+hardenx = [
+    "data/config/csv/*.csv",
+    "data/scripts/audit/*/*.sh",
+    "data/scripts/audit/*/*.ps1",
+    "data/scripts/remediation/*/*.sh",
+    "data/scripts/remediation/*/*.ps1",
+]
