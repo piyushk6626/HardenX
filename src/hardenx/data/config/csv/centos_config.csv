@@ -1,0 +1,262 @@
+no,Main Module,Sub Module,"type ",basic,moderate,strict,custom,level
+1.1.1,Filesystem,Kernel Modules,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+1.1.10,Filesystem,Kernel Modules,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+1.1.2,Filesystem,Kernel Modules,ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+1.1.3,Filesystem,Kernel Modules,ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+1.1.4,Filesystem,Kernel Modules,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+1.1.5,Filesystem,Kernel Modules,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+1.1.6,Filesystem,Kernel Modules,ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+1.1.7,Filesystem,Kernel Modules,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+1.1.8,Filesystem,Kernel Modules,ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+1.1.9,Filesystem,Kernel Modules,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+1.2.1,Filesystem,/tmp Partition,ENUM,['Mounted'],['Mounted'],['Mounted'],['Mounted'],basic
+1.2.2,Filesystem,/tmp Partition,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+1.2.3,Filesystem,/tmp Partition,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+1.2.4,Filesystem,/tmp Partition,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+1.3.1,Filesystem,/dev/shm Partition,ENUM,['mounted'],['mounted'],['mounted'],['mounted'],basic
+1.3.2,Filesystem,/dev/shm Partition,ENUM,['present'],['present'],['present'],['present'],basic
+1.3.3,Filesystem,/dev/shm Partition,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+1.3.4,Filesystem,/dev/shm Partition,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+1.4.1,Filesystem,/home Partition,ENUM,['true'],['true'],['true'],['true'],basic
+1.4.2,Filesystem,/home Partition,ENUM,['nodev'],['nodev'],['nodev'],['nodev'],basic
+1.4.3,Filesystem,/home Partition,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+1.5.1,Filesystem,/var Partition,ENUM,['true'],['true'],['true'],['true'],basic
+1.5.2,Filesystem,/var Partition,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+1.5.3,Filesystem,/var Partition,ENUM,['nosuid'],['nosuid'],['nosuid'],['nosuid'],basic
+1.6.1,Filesystem,/var/tmp Partition,ENUM,['mounted'],['mounted'],['mounted'],['mounted'],basic
+1.6.2,Filesystem,/var/tmp Partition,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+1.6.3,Filesystem,/var/tmp Partition,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+1.6.4,Filesystem,/var/tmp Partition,ENUM,['noexec'],['noexec'],['noexec'],['noexec'],basic
+1.7.1,Filesystem,/var/log Partition,ENUM,['Mounted'],['Mounted'],['Mounted'],['Mounted'],basic
+1.7.2,Filesystem,/var/log Partition,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+1.7.3,Filesystem,/var/log Partition,ENUM,['nosuid'],['nosuid'],['nosuid'],['nosuid'],basic
+1.7.4,Filesystem,/var/log Partition,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+1.8.1,Filesystem,/var/log/audit Partition,ENUM,['mounted'],['mounted'],['mounted'],['mounted'],basic
+1.8.2,Filesystem,/var/log/audit Partition,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+1.8.3,Filesystem,/var/log/audit Partition,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+1.8.4,Filesystem,/var/log/audit Partition,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+2.1.1,Package Management,Bootloader,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+2.1.2,Package Management,Bootloader,ENUM,['Configured'],['Configured'],['Configured'],['Configured'],basic
+2.2.1,Package Management,Additional Process Hardening,ENUM,['2'],['2'],['2'],['2'],basic
+2.2.2,Package Management,Additional Process Hardening,RANGE,"[1, 3]","[2, 3]","[3, 3]","[1, 3]",basic
+2.2.3,Package Management,Additional Process Hardening,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+2.2.4,Package Management,Additional Process Hardening,ENUM,['not installed'],['not installed'],['not installed'],['not installed'],basic
+2.2.5,Package Management,Additional Process Hardening,ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+2.3.1,Package Management,Command Line Warning Banners,ENUM,['Authorized uses only. All activity may be monitored and reported.'],"['This system is for authorized use only. Use of this system constitutes consent to monitoring, recording, and auditing. Unauthorized use is prohibited and may be subject to criminal and civil penalties.']","['You are accessing a restricted Information System. By using this system, you consent to the following conditions: (1) System activity is monitored, recorded, and subject to audit. (2) Unauthorized use is prohibited and subject to criminal and civil penalties. (3) There is no expectation of privacy except as otherwise provided by applicable privacy laws.']",['Authorized uses only. All activity may be monitored and reported.'],basic
+2.3.2,Package Management,Command Line Warning Banners,ENUM,"[""Authorized uses only. All activity may be monitored and reported.""]","[""This system is for authorized use only. By accessing this system, you consent to monitoring, interception, and disclosure of all activity to law enforcement and other authorized officials. Unauthorized use may result in criminal prosecution.""]","[""You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: -The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, COMSEC monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. -At any time, the USG may inspect and seize data stored on this IS. -Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG-authorized purpose. -This IS includes security mechanisms to protect USG interests--not for your personal benefit or privacy. -Notwithstanding the above, using this IS does not constitute consent to PM, LE or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy, and their assistants. Such communications and work product are private and confidential. See User Agreement for details.""]","[""Authorized uses only. All activity may be monitored and reported.""]",basic
+2.3.3,Package Management,Command Line Warning Banners,ENUM,['644 root:root'],['640 root:root'],['600 root:root'],['644 root:root'],basic
+2.3.4,Package Management,Command Line Warning Banners,ENUM,['root:root 644'],['root:root 644'],['root:root 644'],['root:root 644'],basic
+2.3.5,Package Management,Command Line Warning Banners,ENUM,['root:root 644'],['root:root 640'],['root:root 600'],['root:root 644'],basic
+3.1.1,Services,Server Services,ENUM,['disabled'],['disabled'],['masked'],['disabled'],basic
+3.1.10,Services,Server Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.1.11,Services,Server Services,ENUM,"['disabled', 'not installed']","['disabled', 'not installed']",['not installed'],"['disabled', 'not installed']",basic
+3.1.12,Services,Server Services,ENUM,['disabled'],"['disabled', 'not installed']",['not installed'],['disabled'],basic
+3.1.13,Services,Server Services,ENUM,['Disabled'],"['Not Installed', 'Disabled']",['Not Installed'],['Disabled'],basic
+3.1.14,Services,Server Services,ENUM,['Disabled'],['Not Installed'],['Not Installed'],['Disabled'],basic
+3.1.15,Services,Server Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.1.16,Services,Server Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.1.17,Services,Server Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.1.18,Services,Server Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.1.19,Services,Server Services,ENUM,['not installed'],['not installed'],['not installed'],['not installed'],basic
+3.1.2,Services,Server Services,ENUM,['disabled'],['disabled'],['not installed'],['disabled'],basic
+3.1.20,Services,Server Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.1.21,Services,Server Services,ENUM,['localhost'],['localhost'],['localhost'],['localhost'],basic
+3.1.22,Services,Server Services,ENUM,['ssh'],"['ssh', 'ntp', 'dhcpv6-client']",['ssh'],['ssh'],basic
+3.1.3,Services,Server Services,ENUM,"['disabled', 'not installed']","['disabled', 'not installed']",['not installed'],"['disabled', 'not installed']",basic
+3.1.4,Services,Server Services,ENUM,"['disabled', 'Not Installed']","['disabled', 'Not Installed']",['Not Installed'],"['disabled', 'Not Installed']",basic
+3.1.5,Services,Server Services,ENUM,['disabled'],"['disabled', 'Not Installed']",['Not Installed'],['disabled'],basic
+3.1.6,Services,Server Services,ENUM,['disabled'],['Not Installed'],['Not Installed'],['disabled'],basic
+3.1.7,Services,Server Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.1.8,Services,Server Services,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+3.1.9,Services,Server Services,ENUM,['Disabled'],['Not Installed'],['Not Installed'],['Disabled'],basic
+3.2.1,Services,Client Services,ENUM,['not installed'],['not installed'],['not installed'],['not installed'],basic
+3.2.2,Services,Client Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.2.3,Services,Client Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.2.4,Services,Client Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.2.5,Services,Client Services,ENUM,['not installed'],['not installed'],['not installed'],['not installed'],basic
+3.2.6,Services,Client Services,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+3.2.7,Services,Client Services,ENUM,['Installed and Enabled'],['Installed and Enabled'],['Installed and Enabled'],['Installed and Enabled'],basic
+3.3.1,Services,"Ensure time synchronization is in use  ",ENUM,['chrony'],['chrony'],['chrony'],['chrony'],basic
+3.4.1,Services,"Configure systemd-timesyncd ",ENUM,['0.centos.pool.ntp.org 1.centos.pool.ntp.org 2.centos.pool.ntp.org 3.centos.pool.ntp.org'],['time.google.com time.cloudflare.com'],['<internal_ntp_server_1> <internal_ntp_server_2>'],['0.centos.pool.ntp.org 1.centos.pool.ntp.org 2.centos.pool.ntp.org 3.centos.pool.ntp.org'],basic
+3.4.2,Services,"Configure systemd-timesyncd ",ENUM,['enabled_and_running'],['enabled_and_running'],['enabled_and_running'],['enabled_and_running'],basic
+3.5.1,Services,chrony,ENUM,['2.centos.pool.ntp.org'],"['0.centos.pool.ntp.org','1.centos.pool.ntp.org','2.centos.pool.ntp.org','3.centos.pool.ntp.org']","['time1.internal.corp','time2.internal.corp']",['2.centos.pool.ntp.org'],basic
+3.5.2,Services,chrony,ENUM,['_chrony'],['_chrony'],['_chrony'],['_chrony'],basic
+3.5.3,Services,chrony,ENUM,['Enabled and Active'],['Enabled and Active'],['Enabled and Active'],['Enabled and Active'],basic
+3.6.1,Services,Job Schedulers,ENUM,['enabled-active'],['enabled-active'],['enabled-active'],['enabled-active'],basic
+3.6.2,Services,Job Schedulers,ENUM,['600 root root'],['600 root root'],['600 root root'],['600 root root'],basic
+3.6.3,Services,Job Schedulers,ENUM,['700 root root'],['700 root root'],['700 root root'],['700 root root'],basic
+3.6.4,Services,Job Schedulers,ENUM,['700:root:root'],['700:root:root'],['700:root:root'],['700:root:root'],basic
+3.6.5,Services,Job Schedulers,ENUM,['700:root:root'],['700:root:root'],['700:root:root'],['700:root:root'],basic
+3.6.6,Services,Job Schedulers,ENUM,['700 root:root'],['700 root:root'],['700 root:root'],['700 root:root'],basic
+3.6.7,Services,Job Schedulers,ENUM,['700 root root'],['700 root root'],['700 root root'],['700 root root'],basic
+3.6.8,Services,Job Schedulers,ENUM,['Allow Configured'],['Allow Configured'],['Allow Configured'],['Allow Configured'],basic
+4.1.1,Network,Configure Network Devices,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+4.1.2,Network,Configure Network Devices,ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+4.1.3,Network,Configure Network Devices,ENUM,['Disabled'],"['Disabled', 'Not Installed']",['Not Installed'],['Disabled'],basic
+4.2.1,Network,Network Kernel Modules,ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+4.2.2,Network,Network Kernel Modules,ENUM,['Disabled'],['Disabled'],['Disabled'],['Disabled'],basic
+4.2.3,Network,Network Kernel Modules,ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+4.2.4,Network,Network Kernel Modules,ENUM,['Not Available'],['Not Available'],['Not Available'],['Not Available'],basic
+4.3.1,Network,Network Kernel Parameters,ENUM,['0'],['0'],['0'],['0'],basic
+4.3.10,Network,Network Kernel Parameters,ENUM,['1'],['1'],['1'],['1'],basic
+4.3.11,Network,Network Kernel Parameters,ENUM,"['0,0']","['0,0']","['0,0']","['0,0']",basic
+4.3.2,Network,Network Kernel Parameters,ENUM,['0'],['0'],['0'],['0'],basic
+4.3.3,Network,Network Kernel Parameters,ENUM,['1'],['1'],['1'],['1'],basic
+4.3.4,Network,Network Kernel Parameters,ENUM,['1'],['1'],['1'],['1'],basic
+4.3.5,Network,Network Kernel Parameters,ENUM,['0'],['0'],['0'],['0'],basic
+4.3.6,Network,Network Kernel Parameters,ENUM,['0'],['0'],['0'],['0'],basic
+4.3.7,Network,Network Kernel Parameters,ENUM,['1'],['1'],['1'],['1'],basic
+4.3.8,Network,Network Kernel Parameters,ENUM,['0'],['0'],['0'],['0'],basic
+4.3.9,Network,Network Kernel Parameters,ENUM,['1'],['1'],['1'],['1'],basic
+5.1.1,Host Based Firewall,Configure a single firewall,ENUM,['Installed'],['Installed'],['Installed'],['Installed'],basic
+5.1.2,Host Based Firewall,Configure a single firewall,ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+5.1.3,Host Based Firewall,Configure a single firewall,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+5.1.4,Host Based Firewall,Configure a single firewall,ENUM,['Configured'],['Configured'],['Configured'],['Configured'],basic
+5.1.5,Host Based Firewall,Configure a single firewall,ENUM,['allow'],['deny'],['deny'],['allow'],basic
+5.1.6,Host Based Firewall,Configure a single firewall,ENUM,['Compliant'],['Compliant'],['Compliant'],['Compliant'],basic
+5.1.7,Host Based Firewall,Configure a single firewall,ENUM,['deny'],['deny'],['deny'],['deny'],basic
+5.1.8,Host Based Firewall,Configure a single firewall,ENUM,['Disabled'],['Not Installed'],['Not Installed'],['Disabled'],basic
+6.1.1,Access Control,Configure SSH Server,ENUM,['600 root root'],['600 root root'],['600 root root'],['600 root root'],basic
+6.1.10,Access Control,Configure SSH Server,ENUM,['no'],['no'],['no'],['no'],basic
+6.1.11,Access Control,Configure SSH Server,ENUM,['yes'],['yes'],['yes'],['yes'],basic
+6.1.12,Access Control,Configure SSH Server,ENUM,"['curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256']","['curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521']","['sntrup761x25519-sha512@openssh.com,curve25519-sha256@libssh.org,curve25519-sha256']","['curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256']",basic
+6.1.13,Access Control,Configure SSH Server,RANGE,"[60, 15]","[30, 15]","[15, 15]","[60, 15]",basic
+6.1.14,Access Control,Configure SSH Server,ENUM,['INFO'],['VERBOSE'],['VERBOSE'],['INFO'],basic
+6.1.15,Access Control,Configure SSH Server,ENUM,"['hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256']","['hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com']",['hmac-sha2-512-etm@openssh.com'],"['hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256']",basic
+6.1.16,Access Control,Configure SSH Server,RANGE,"[6, 3]","[4, 3]","[3, 3]","[6, 3]",basic
+6.1.17,Access Control,Configure SSH Server,RANGE,"[10, 2]","[4, 2]","[2, 2]","[10, 2]",basic
+6.1.18,Access Control,Configure SSH Server,ENUM,['10:30:60'],['10:30:60'],['10:30:60'],['10:30:60'],basic
+6.1.19,Access Control,Configure SSH Server,ENUM,['no'],['no'],['no'],['no'],basic
+6.1.2,Access Control,Configure SSH Server,ENUM,['600/root:root'],['600/root:root'],['600/root:root'],['600/root:root'],basic
+6.1.20,Access Control,Configure SSH Server,ENUM,['prohibit-password'],['no'],['no'],['prohibit-password'],basic
+6.1.21,Access Control,Configure SSH Server,ENUM,['no'],['no'],['no'],['no'],basic
+6.1.22,Access Control,Configure SSH Server,ENUM,['yes'],['yes'],['yes'],['yes'],basic
+6.1.3,Access Control,Configure SSH Server,ENUM,['644'],['640'],['640'],['644'],basic
+6.1.4,Access Control,Configure SSH Server,ENUM,['Configured'],['Configured'],['Configured'],['Configured'],basic
+6.1.5,Access Control,Configure SSH Server,ENUM,['/etc/issue.net'],['/etc/issue.net'],['/etc/issue.net'],['/etc/issue.net'],basic
+6.1.6,Access Control,Configure SSH Server,ENUM,"['chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr']","['chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com']","['chacha20-poly1305@openssh.com,aes256-gcm@openssh.com']","['chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr']",basic
+6.1.7,Access Control,Configure SSH Server,ENUM,['900:0'],['300:0'],['300:0'],['900:0'],basic
+6.1.8,Access Control,Configure SSH Server,ENUM,['yes'],['yes'],['yes'],['yes'],basic
+6.1.9,Access Control,Configure SSH Server,ENUM,['no'],['no'],['no'],['no'],basic
+6.2.1,Access Control,Configure privilege escalation,ENUM,['Installed'],['Installed'],['Installed'],['Installed'],basic
+6.2.2,Access Control,Configure privilege escalation,ENUM,['true'],['true'],['true'],['true'],basic
+6.2.3,Access Control,Configure privilege escalation,ENUM,['/var/log/sudo.log'],['/var/log/sudo.log'],['/var/log/sudo.log'],['/var/log/sudo.log'],basic
+6.2.4,Access Control,Configure privilege escalation,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+6.2.5,Access Control,Configure privilege escalation,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+6.2.6,Access Control,Configure privilege escalation,RANGE,"[5, 0]","[1, 0]","[0, 0]","[5, 0]",basic
+6.2.7,Access Control,Configure privilege escalation,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+6.3.1,Access Control,Pluggable Authentication Modules (PAM) — Configure PAM software packages,ENUM,['Installed and Up-to-date'],['Installed and Up-to-date'],['Installed and Up-to-date'],['Installed and Up-to-date'],basic
+6.3.10,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_faillock module,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+6.3.11,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwquality module,RANGE,"[4, 'upper bound']","[7, 'upper bound']","[8, 'upper bound']","[4, 'upper bound']",basic
+6.3.12,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwquality module,RANGE,"[14, 'upper bound']","[16, 'upper bound']","[18, 'upper bound']","[14, 'upper bound']",basic
+6.3.13,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwquality module,RANGE,"[3, 1]","[2, 1]","[1, 1]","[3, 1]",basic
+6.3.14,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwquality module,RANGE,"[3, 1]","[2, 1]","[1, 1]","[3, 1]",basic
+6.3.15,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwquality module,ENUM,['1'],['1'],['1'],['1'],basic
+6.3.16,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwquality module,ENUM,['Enforced'],['Enforced'],['Enforced'],['Enforced'],basic
+6.3.17,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwquality module,ENUM,['enforced'],['enforced'],['enforced'],['enforced'],basic
+6.3.18,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwhistory module,RANGE,"[5, 24]","[10, 24]","[24, 24]","[5, 24]",basic
+6.3.19,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwhistory module,RANGE,"[5, 24]","[12, 24]","[24, 24]","[5, 24]",basic
+6.3.2,Access Control,Pluggable Authentication Modules (PAM) — Configure PAM software packages,ENUM,['Installed'],['Installed'],['Installed'],['Installed'],basic
+6.3.20,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_pwhistory module,ENUM,['present'],['present'],['present'],['present'],basic
+6.3.3,Access Control,Pluggable Authentication Modules (PAM) — Configure PAM software packages,ENUM,['installed'],['installed'],['installed'],['installed'],basic
+6.3.4,Access Control,Pluggable Authentication Modules (PAM) — Configure pam-auth-update profiles,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+6.3.5,Access Control,Pluggable Authentication Modules (PAM) — Configure pam-auth-update profiles,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+6.3.6,Access Control,Pluggable Authentication Modules (PAM) — Configure pam-auth-update profiles,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+6.3.7,Access Control,Pluggable Authentication Modules (PAM) — Configure pam-auth-update profiles,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+6.3.8,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_faillock module,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+6.3.9,Access Control,Pluggable Authentication Modules (PAM) — Configure pam_faillock module,RANGE,"[900, 3600]","[1800, 3600]","[3600, 3600]","[900, 3600]",basic
+7.1.1,User Accounts and Environment,Configure shadow password suite parameters,RANGE,"[90, 30]","[60, 30]","[1, 30]","[90, 30]",basic
+7.1.10,User Accounts and Environment,Configure root and system accounts and environment,ENUM,['prohibit-password'],['no'],['no'],['prohibit-password'],basic
+7.1.11,User Accounts and Environment,Configure root and system accounts and environment,ENUM,['Secure'],['Secure'],['Secure'],['Secure'],basic
+7.1.12,User Accounts and Environment,Configure root and system accounts and environment,ENUM,['027'],['027'],['077'],['027'],basic
+7.1.13,User Accounts and Environment,Configure root and system accounts and environment,ENUM,['/sbin/nologin'],"['/sbin/nologin', '/bin/false']","['/sbin/nologin', '/bin/false']",['/sbin/nologin'],basic
+7.1.14,User Accounts and Environment,Configure root and system accounts and environment,ENUM,['Locked'],['Locked'],['Locked'],['Locked'],basic
+7.1.2,User Accounts and Environment,Configure shadow password suite parameters,RANGE,"[1, 7]","[7, 7]","[7, 7]","[1, 7]",basic
+7.1.3,User Accounts and Environment,Configure shadow password suite parameters,RANGE,"[7, 30]","[14, 30]","[30, 30]","[7, 30]",basic
+7.1.4,User Accounts and Environment,Configure shadow password suite parameters,ENUM,['sha512'],['sha512'],['sha512'],['sha512'],basic
+7.1.5,User Accounts and Environment,Configure shadow password suite parameters,RANGE,"[30, 7]","[15, 7]","[7, 7]","[30, 7]",basic
+7.1.6,User Accounts and Environment,Configure shadow password suite parameters,ENUM,[''],[''],[''],[''],basic
+7.1.7,User Accounts and Environment,Configure root and system accounts and environment,ENUM,['root'],['root'],['root'],['root'],basic
+7.1.8,User Accounts and Environment,Configure root and system accounts and environment,ENUM,['root'],['root'],['root'],['root'],basic
+7.1.9,User Accounts and Environment,Configure root and system accounts and environment,ENUM,['root'],['root'],['root'],['root'],basic
+7.2.1,User Accounts and Environment,Configure user default environment,ENUM,['Not Listed'],['Not Listed'],['Not Listed'],['Not Listed'],basic
+7.2.2,User Accounts and Environment,Configure user default environment,RANGE,"[900, 300]","[600, 300]","[300, 300]","[900, 300]",basic
+7.2.3,User Accounts and Environment,Configure user default environment,ENUM,['027'],['027'],['077'],['027'],basic
+8.1.1,Logging and Auditing,"System Logging - Configure systemd-journald service ",ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+8.1.10,Logging and Auditing,"System Logging -Configure rsyslog ",ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+8.1.11,Logging and Auditing,"System Logging -Configure rsyslog ",ENUM,['disabled'],['disabled'],['disabled'],['disabled'],basic
+8.1.12,Logging and Auditing,"System Logging -Configure rsyslog ",ENUM,['Installed'],['Installed'],['Installed'],['Installed'],basic
+8.1.13,Logging and Auditing,System Logging- Configure Logfiles,ENUM,['Compliant'],['Compliant'],['Compliant'],['Compliant'],basic
+8.1.2,Logging and Auditing,"System Logging - Configure systemd-journald service ",ENUM,['2755'],['2750'],['2700'],['2755'],basic
+8.1.3,Logging and Auditing,"System Logging - Configure systemd-journald service ",ENUM,['500M'],['1G'],['4G'],['500M'],basic
+8.1.4,Logging and Auditing,"System Logging - Configure systemd-journald service ",ENUM,['Not Installed'],['Not Installed'],['Not Installed'],['Not Installed'],basic
+8.1.5,Logging and Auditing,"System Logging -Configure rsyslog ",ENUM,['Installed'],['Installed'],['Installed'],['Installed'],basic
+8.1.6,Logging and Auditing,"System Logging -Configure rsyslog ",ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+8.1.7,Logging and Auditing,"System Logging -Configure rsyslog ",ENUM,['yes'],['yes'],['yes'],['yes'],basic
+8.1.8,Logging and Auditing,"System Logging -Configure rsyslog ",ENUM,['0640'],['0600'],['0600'],['0640'],basic
+8.1.9,Logging and Auditing,"System Logging -Configure rsyslog ",ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+8.2.1,Logging and Auditing,System Logging- Configure Logfiles,ENUM,['installed'],['installed'],['installed'],['installed'],basic
+8.2.2,Logging and Auditing,System Logging- Configure Logfiles,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+8.2.3,Logging and Auditing,System Logging- Configure Logfiles,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+8.2.4,Logging and Auditing,System Logging- Configure Logfiles,RANGE,"[8192, 'upper bound']","[16384, 'upper bound']","[32768, 'upper bound']","[8192, 'upper bound']",basic
+8.3.1,Logging and Auditing,Configure Data Retention,RANGE,"[100, 'upper bound']","[500, 'upper bound']","[1024, 'upper bound']","[100, 'upper bound']",basic
+8.3.2,Logging and Auditing,Configure Data Retention,ENUM,['keep_logs'],['suspend'],['halt'],['keep_logs'],basic
+8.3.3,Logging and Auditing,Configure Data Retention,ENUM,['SUSPEND'],['SINGLE'],['HALT'],['SUSPEND'],basic
+8.3.4,Logging and Auditing,Configure Data Retention,ENUM,['SYSLOG'],['EMAIL'],['HALT'],['SYSLOG'],basic
+8.4.1,Logging and Auditing,Configure auditd Rules,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+8.4.10,Logging and Auditing,Configure auditd Rules,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+8.4.11,Logging and Auditing,Configure auditd Rules,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+8.4.12,Logging and Auditing,Configure auditd Rules,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+8.4.13,Logging and Auditing,Configure auditd Rules,ENUM,['Configured'],['Configured'],['Configured'],['Configured'],basic
+8.4.14,Logging and Auditing,Configure auditd Rules,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+8.4.15,Logging and Auditing,Configure auditd Rules,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+8.4.16,Logging and Auditing,Configure auditd Rules,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+8.4.17,Logging and Auditing,Configure auditd Rules,ENUM,['present'],['present'],['present'],['present'],basic
+8.4.18,Logging and Auditing,Configure auditd Rules,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+8.4.19,Logging and Auditing,Configure auditd Rules,ENUM,['present'],['present'],['present'],['present'],basic
+8.4.2,Logging and Auditing,Configure auditd Rules,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+8.4.20,Logging and Auditing,Configure auditd Rules,ENUM,['1'],['2'],['2'],['1'],basic
+8.4.21,Logging and Auditing,Configure auditd Rules,ENUM,['same'],['same'],['same'],['same'],basic
+8.4.3,Logging and Auditing,Configure auditd Rules,ENUM,['present'],['present'],['present'],['present'],basic
+8.4.4,Logging and Auditing,Configure auditd Rules,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+8.4.5,Logging and Auditing,Configure auditd Rules,ENUM,['Configured'],['Configured'],['Configured'],['Configured'],basic
+8.4.6,Logging and Auditing,Configure auditd Rules,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+8.4.7,Logging and Auditing,Configure auditd Rules,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+8.4.8,Logging and Auditing,Configure auditd Rules,ENUM,['Present'],['Present'],['Present'],['Present'],basic
+8.4.9,Logging and Auditing,Configure auditd Rules,ENUM,['enabled'],['enabled'],['enabled'],['enabled'],basic
+8.5.1,Logging and Auditing,Configure auditd File Access,ENUM,['0640'],['0600'],['0600'],['0640'],basic
+8.5.10,Logging and Auditing,Configure auditd File Access,ENUM,['root'],['root'],['root'],['root'],basic
+8.5.2,Logging and Auditing,Configure auditd File Access,ENUM,['root'],['root'],['root'],['root'],basic
+8.5.3,Logging and Auditing,Configure auditd File Access,ENUM,['root'],['root'],['root'],['root'],basic
+8.5.4,Logging and Auditing,Configure auditd File Access,ENUM,['0750'],['0700'],['0700'],['0750'],basic
+8.5.5,Logging and Auditing,Configure auditd File Access,ENUM,['0640'],['0600'],['0600'],['0640'],basic
+8.5.6,Logging and Auditing,Configure auditd File Access,ENUM,['root'],['root'],['root'],['root'],basic
+8.5.7,Logging and Auditing,Configure auditd File Access,ENUM,['root'],['root'],['root'],['root'],basic
+8.5.8,Logging and Auditing,Configure auditd File Access,ENUM,['0750'],['0750'],['0700'],['0750'],basic
+8.5.9,Logging and Auditing,Configure auditd File Access,ENUM,['root'],['root'],['root'],['root'],basic
+8.6.1,Logging and Auditing,Configure Integrity Checking,ENUM,['Installed'],['Installed'],['Installed'],['Installed'],basic
+8.6.2,Logging and Auditing,Configure Integrity Checking,ENUM,['Enabled'],['Enabled'],['Enabled'],['Enabled'],basic
+8.6.3,Logging and Auditing,Configure Integrity Checking,ENUM,['Installed'],['Installed'],['Installed'],['Installed'],basic
+9.1.1,System Maintenance,System File Permissions,ENUM,['644'],['644'],['644'],['644'],basic
+9.1.10,System Maintenance,System File Permissions,ENUM,['600'],['400'],['000'],['600'],basic
+9.1.11,System Maintenance,System File Permissions,RANGE,"[0, 0]","[0, 0]","[0, 0]","[0, 0]",basic
+9.1.12,System Maintenance,System File Permissions,RANGE,"[0, 0]","[0, 0]","[0, 0]","[0, 0]",basic
+9.1.13,System Maintenance,System File Permissions,ENUM,['Reviewed'],['Reviewed Periodically'],['Reviewed Periodically with Automated Monitoring'],['Reviewed'],basic
+9.1.2,System Maintenance,System File Permissions,ENUM,['600'],['600'],['600'],['600'],basic
+9.1.3,System Maintenance,System File Permissions,ENUM,['644'],['644'],['644'],['644'],basic
+9.1.4,System Maintenance,System File Permissions,ENUM,['0644'],['0640'],['0600'],['0644'],basic
+9.1.5,System Maintenance,System File Permissions,ENUM,['0 root root'],['0 root root'],['0 root root'],['0 root root'],basic
+9.1.6,System Maintenance,System File Permissions,ENUM,['0600 root:root'],['0000 root:root'],"['File not found', '0000 root:root']",['0600 root:root'],basic
+9.1.7,System Maintenance,System File Permissions,ENUM,['0000'],['0000'],['0000'],['0000'],basic
+9.1.8,System Maintenance,System File Permissions,ENUM,['0'],['0'],['0'],['0'],basic
+9.1.9,System Maintenance,System File Permissions,ENUM,['644'],['640'],['600'],['644'],basic
+9.2.1,System Maintenance,Local User and Group Settings,RANGE,"[0, 0]","[0, 0]","[0, 0]","[0, 0]",basic
+9.2.10,System Maintenance,Local User and Group Settings,ENUM,['750'],['700'],['700'],['750'],basic
+9.2.2,System Maintenance,Local User and Group Settings,RANGE,"[0, 0]","[0, 0]","[0, 0]","[0, 0]",basic
+9.2.3,System Maintenance,Local User and Group Settings,RANGE,"[0, 0]","[0, 0]","[0, 0]","[0, 0]",basic
+9.2.4,System Maintenance,Local User and Group Settings,ENUM,[''],[''],[''],[''],basic
+9.2.5,System Maintenance,Local User and Group Settings,RANGE,"[0, 0]","[0, 0]","[0, 0]","[0, 0]",basic
+9.2.6,System Maintenance,Local User and Group Settings,ENUM,['No duplicate GIDs found'],['No duplicate GIDs found'],['No duplicate GIDs found'],['No duplicate GIDs found'],basic
+9.2.7,System Maintenance,Local User and Group Settings,RANGE,"[0, 0]","[0, 0]","[0, 0]","[0, 0]",basic
+9.2.8,System Maintenance,Local User and Group Settings,ENUM,[''],[''],[''],[''],basic
+9.2.9,System Maintenance,Local User and Group Settings,ENUM,['Configured'],['Configured'],['Configured'],['Configured'],basic
