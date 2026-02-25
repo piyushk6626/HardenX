@@ -1,0 +1,1 @@
+((net accounts) | Where-Object {$_ -match 'Maximum password age'}) -replace '\D'

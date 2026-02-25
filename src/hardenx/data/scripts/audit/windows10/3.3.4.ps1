@@ -1,0 +1,1 @@
+(Get-Item -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Lsa').GetValue('RestrictAnonymousSAM', 0)

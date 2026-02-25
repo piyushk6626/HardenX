@@ -1,0 +1,1 @@
+(Get-LocalUser -SID 'S-1-5-32-546').Name

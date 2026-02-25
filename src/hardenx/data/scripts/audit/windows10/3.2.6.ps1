@@ -1,0 +1,1 @@
+Get-ItemPropertyValue -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon' -Name 'PasswordExpiryWarning' -ErrorAction SilentlyContinue

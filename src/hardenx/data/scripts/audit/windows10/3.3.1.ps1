@@ -1,0 +1,1 @@
+(Get-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Services\LanManServer\Parameters').autodisconnect

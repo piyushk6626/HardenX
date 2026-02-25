@@ -1,0 +1,1 @@
+(((net accounts | Select-String 'Minimum password age').Line) -split ':')[1].Trim()
