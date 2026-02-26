@@ -1,0 +1,1 @@
+(Get-NetFirewallProfile -Name 'Private').Enabled

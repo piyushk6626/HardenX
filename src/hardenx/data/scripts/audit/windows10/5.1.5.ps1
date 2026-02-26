@@ -1,0 +1,1 @@
+[System.Environment]::ExpandEnvironmentVariables((Get-NetFirewallProfile -Name Private).LogFileName)
