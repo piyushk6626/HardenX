@@ -1,0 +1,1 @@
+((auditpol.exe /get /subcategory:"Process Creation") | Select-String -Pattern "Process Creation").Line.Trim() -split '\s{2,}' | Select-Object -Last 1

@@ -1,0 +1,1 @@
+(auditpol /get /subcategory:"Sensitive Privilege Use" | Select-Object -Skip 3).Trim() -replace '.+\s{2,}', ''

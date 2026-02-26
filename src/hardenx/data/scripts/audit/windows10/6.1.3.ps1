@@ -1,0 +1,1 @@
+((auditpol /get /subcategory:"Security Group Management")[-1].Trim() -split '\s{2,}')[-1]

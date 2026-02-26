@@ -1,0 +1,1 @@
+(auditpol /get /subcategory:"Credential Validation") -match "Credential Validation" -replace '^.*Credential Validation\s{2,}', ''

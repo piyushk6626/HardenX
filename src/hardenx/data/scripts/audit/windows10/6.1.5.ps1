@@ -1,0 +1,1 @@
+(auditpol /get /subcategory:"PNP Activity" /r | ConvertFrom-Csv).'Inclusion Setting'

@@ -1,0 +1,1 @@
+((auditpol.exe /get /subcategory:"Other Policy Change Events")[3].Trim() -split '\s{2,}')[-1]

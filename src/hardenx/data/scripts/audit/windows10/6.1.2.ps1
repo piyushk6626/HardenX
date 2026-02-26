@@ -1,0 +1,1 @@
+((auditpol.exe /get /subcategory:"Application Group Management" | Select-String -Pattern "Application Group Management").Line.Trim() -split '\s{2,}')[-1]

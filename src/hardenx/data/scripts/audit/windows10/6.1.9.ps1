@@ -1,0 +1,1 @@
+(((auditpol.exe /get /subcategory:"File Share" | Where-Object { $_ -match 'File Share' }).Trim() -split '\s{2,}')[-1])

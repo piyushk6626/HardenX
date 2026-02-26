@@ -1,0 +1,1 @@
+((auditpol.exe /get /subcategory:"Account Lockout") -match 'Current Setting:') -replace '.*:\s*'

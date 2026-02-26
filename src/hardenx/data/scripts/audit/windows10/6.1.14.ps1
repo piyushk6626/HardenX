@@ -1,0 +1,1 @@
+(auditpol /get /subcategory:"System Integrity" /r | ConvertFrom-Csv)."Inclusion Setting"

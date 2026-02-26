@@ -1,0 +1,1 @@
+(auditpol /get /subcategory:"Other Logon/Logoff Events" | Select-String -Pattern "Other Logon/Logoff Events").Line.Trim() -replace '.*?\s{2,}', ''
