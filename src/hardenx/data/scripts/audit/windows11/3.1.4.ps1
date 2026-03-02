@@ -1,0 +1,1 @@
+(Get-CimInstance -ClassName Win32_UserAccount -Filter "LocalAccount = True AND SID LIKE '%-500'").Name

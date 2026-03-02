@@ -1,0 +1,1 @@
+(net accounts | Select-String 'Minimum password length') -replace '.*:\s*'

@@ -1,0 +1,1 @@
+net accounts | ForEach-Object { if ($_ -match 'Maximum password age \(days\):\s*(\d+)') { $matches[1] } }

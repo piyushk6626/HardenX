@@ -1,0 +1,1 @@
+(Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0').NtlmMinClientSec

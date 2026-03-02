@@ -1,0 +1,1 @@
+(Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\RemoteAccess\Parameters\AccountLockout' -ErrorAction SilentlyContinue).MaxDenials

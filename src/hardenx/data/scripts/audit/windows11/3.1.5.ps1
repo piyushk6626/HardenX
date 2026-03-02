@@ -1,0 +1,1 @@
+(New-Object System.Security.Principal.SecurityIdentifier('S-1-5-32-546')).Translate([System.Security.Principal.NTAccount]).Value

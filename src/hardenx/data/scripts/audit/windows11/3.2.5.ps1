@@ -1,0 +1,1 @@
+(Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System' -Name 'LegalNoticeCaption' -ErrorAction SilentlyContinue).LegalNoticeCaption
