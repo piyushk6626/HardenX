@@ -1,0 +1,1 @@
+(Get-NetFirewallProfile -Profile Private).DefaultOutboundAction
