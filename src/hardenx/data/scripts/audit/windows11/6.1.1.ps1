@@ -1,0 +1,1 @@
+((auditpol.exe /get /subcategory:"Credential Validation") -match "Credential Validation") -split '\s{2,}' | Select-Object -Last 1

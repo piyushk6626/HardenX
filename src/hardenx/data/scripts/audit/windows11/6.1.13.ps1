@@ -1,0 +1,1 @@
+((auditpol /get /subcategory:"Sensitive Privilege Use") -match "Sensitive Privilege Use").Trim() -split '\s{2,}' | Select-Object -Last 1

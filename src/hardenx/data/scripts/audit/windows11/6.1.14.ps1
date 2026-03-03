@@ -1,0 +1,1 @@
+(auditpol.exe /get /subcategory:"System Integrity" | Where-Object { $_ -match 'System Integrity' }).Trim() -split '\s{2,}' | Select-Object -Last 1

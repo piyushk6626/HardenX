@@ -1,0 +1,1 @@
+((auditpol.exe /get /subcategory:"Account Lockout" | Select-String -Pattern "Account Lockout").Line -split '\s{2,}')[-1].Trim()

@@ -1,0 +1,1 @@
+((auditpol /get /subcategory:"File Share" | Select-String -Pattern "File Share").ToString() -replace '^\s*File Share\s+').Trim()

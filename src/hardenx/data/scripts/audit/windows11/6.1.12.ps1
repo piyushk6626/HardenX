@@ -1,0 +1,1 @@
+((auditpol.exe /get /subcategory:"Other Policy Change Events") | Where-Object { $_ -match "Other Policy Change Events" }).Trim() -split '\s{2,}' | Select-Object -Last 1

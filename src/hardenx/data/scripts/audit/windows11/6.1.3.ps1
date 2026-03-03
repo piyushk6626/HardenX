@@ -1,0 +1,1 @@
+(auditpol.exe /get /subcategory:"Security Group Management" /r | ConvertFrom-Csv).'Inclusion Setting'

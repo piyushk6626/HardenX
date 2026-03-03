@@ -1,0 +1,1 @@
+(auditpol /get /subcategory:"User Account Management" | Select-String 'User Account Management').Line.Trim() -split '\s{2,}' | Select-Object -Last 1
